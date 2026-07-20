@@ -1,0 +1,34 @@
+public/favicon.svg
+  s_829abb7e56b524::t_c11e92787b5062 1-11
+src/stt-settings.tsx
+  s_829abb7e56b524::t_207c736c65b9de 1-47
+vite.config.ts
+  s_829abb7e56b524::t_61c566a982c0e1 1-8
+src/client.tsx
+  s_829abb7e56b524::t_d1560982d023fd 1-445
+.env.example
+  s_829abb7e56b524::t_fc323ae4e0803c 1-2
+src/stt-providers.ts
+  s_829abb7e56b524::t_39afb077af7002 1-27
+.gitignore
+  s_829abb7e56b524::t_96b143dd069a6d 1-158
+README.md
+  s_829abb7e56b524::t_7516ab33f4c603 3-29
+  s_829abb7e56b524::t_55204b65ff52d9 1-2,30-44
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "61b4368098a8a9e90ad16f25bab5d5be9d410a40",
+  "prompts": {},
+  "sessions": {
+    "s_829abb7e56b524": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_07f4fbd26ffejUh2Orw690jWB6",
+        "model": "grok-4.5"
+      },
+      "human_author": "Harshith Pabbati <harshith@cloudflare.com>"
+    }
+  }
+}
