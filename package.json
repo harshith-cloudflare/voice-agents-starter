@@ -1,0 +1,48 @@
+{
+  "name": "voice-agents-starter",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Standalone Cloudflare realtime voice agent (Workers AI). Config via VOICE_AGENT_CONFIG plain text var.",
+  "scripts": {
+    "dev": "vite dev",
+    "start": "vite dev",
+    "build": "vite build",
+    "deploy": "vite build && wrangler deploy",
+    "types": "wrangler types env.d.ts --include-runtime false",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@cloudflare/kumo": "^1.16.0",
+    "@cloudflare/voice": "https://registry.npmjs.org/@cloudflare/voice/-/voice-0.3.4.tgz",
+    "@phosphor-icons/react": "^2.1.10",
+    "agents": "^0.17.4",
+    "ai": "^6.0.177",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "workers-ai-provider": "^3.1.8",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.31.0",
+    "@cloudflare/workers-types": "^5.20260730.1",
+    "@tailwindcss/vite": "^4.2.2",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "tailwindcss": "^4.2.2",
+    "typescript": "^5.9.3",
+    "vite": "^8.0.3",
+    "wrangler": "^4.80.0"
+  },
+  "cloudflare": {
+    "bindings": {
+      "AI": {
+        "description": "Workers AI binding used for STT, LLM, and TTS."
+      },
+      "VOICE_AGENT_CONFIG": {
+        "description": "Plain text JSON var of voice settings: `agentName`, `instructions`, `sttModel`, `sttLang`, `llmModel`, `ttsModel`, `ttsVoice`. Default in wrangler.jsonc; override in Dashboard Variables or .dev.vars."
+      }
+    }
+  }
+}
