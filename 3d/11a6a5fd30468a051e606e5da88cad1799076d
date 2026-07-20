@@ -1,0 +1,57 @@
+.env.example
+  s_829abb7e56b524::t_fc323ae4e0803c 1-8
+.gitignore
+  s_829abb7e56b524::t_96b143dd069a6d 1-158
+public/favicon.svg
+  s_829abb7e56b524::t_c11e92787b5062 1-11
+src/client.tsx
+  s_829abb7e56b524::t_d1560982d023fd 1-958
+src/sfu.ts
+  s_829abb7e56b524::t_aad364efb330eb 1-248
+src/stt-providers.ts
+  s_829abb7e56b524::t_39afb077af7002 1-72
+src/stt-providers/assemblyai.ts
+  s_829abb7e56b524::t_5276de1babee0b 1-50
+src/stt-providers/elevenlabs.ts
+  s_829abb7e56b524::t_a604b97be53161 1-18
+src/stt-providers/telnyx.ts
+  s_829abb7e56b524::t_d8b2f22deed17e 1-20
+src/stt-providers/types.ts
+  s_829abb7e56b524::t_e073446b451b22 1-6
+src/stt-providers/utils.ts
+  s_829abb7e56b524::t_36aaeb2274766e 1-31
+src/stt-providers/workers-ai.ts
+  s_829abb7e56b524::t_056b8aaa7d83f0 1-16
+src/stt-settings.tsx
+  s_829abb7e56b524::t_207c736c65b9de 1-143
+src/stt-settings/assemblyai.tsx
+  s_829abb7e56b524::t_4afe70eb3b5955 1-112
+src/stt-settings/elevenlabs.tsx
+  s_829abb7e56b524::t_55062aa861eb8b 1-82
+src/stt-settings/telnyx.tsx
+  s_829abb7e56b524::t_dedac5215a7c06 1-82
+src/stt-settings/types.ts
+  s_829abb7e56b524::t_5c1a56b1e549bc 1-25
+src/stt-settings/workers-ai.ts
+  s_829abb7e56b524::t_0e8dd793640f3c 1-15
+src/use-sfu-voice.ts
+  s_829abb7e56b524::t_da66dcfc6f017c 1-208
+vite.config.ts
+  s_829abb7e56b524::t_61c566a982c0e1 1-8
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "3d11a6a5fd30468a051e606e5da88cad1799076d",
+  "prompts": {},
+  "sessions": {
+    "s_829abb7e56b524": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_07f4fbd26ffejUh2Orw690jWB6",
+        "model": "grok-4.5"
+      },
+      "human_author": "Harshith Pabbati <harshith@cloudflare.com>"
+    }
+  }
+}
