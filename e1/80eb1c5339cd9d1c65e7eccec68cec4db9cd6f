@@ -1,0 +1,19 @@
+README.md
+  s_829abb7e56b524::t_7516ab33f4c603 3,5,9-12,14,16,18,20,22-26,28-29
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "e180eb1c5339cd9d1c65e7eccec68cec4db9cd6f",
+  "prompts": {},
+  "sessions": {
+    "s_829abb7e56b524": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_07f4fbd26ffejUh2Orw690jWB6",
+        "model": "grok-4.5"
+      },
+      "human_author": "Harshith Pabbati <harshith@cloudflare.com>"
+    }
+  }
+}
