@@ -1,0 +1,24 @@
+env.d.ts
+  s_a6ddc8e87f8004::t_61ef490d948aed 6
+src/agent-config.ts
+  s_a6ddc8e87f8004::t_d0d5db7e9f2abd 2
+  s_a6ddc8e87f8004::t_dd33c01c88e19e 3-4
+package.json
+  s_a6ddc8e87f8004::t_d0a4b8a9f26f43 6
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "27b5ff219af0252606676501dad5212c28fdedef",
+  "prompts": {},
+  "sessions": {
+    "s_a6ddc8e87f8004": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_045f19f17ffeQicEGSWOuxHn4n",
+        "model": "grok-4.5"
+      },
+      "human_author": null
+    }
+  }
+}
