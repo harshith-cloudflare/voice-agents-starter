@@ -6,7 +6,7 @@ Realtime voice agent on Cloudflare Workers (Workers AI only — no external API 
 
 ## Config: `VOICE_AGENT_CONFIG`
 
-Plain text Worker **var** (not a secret) — JSON agent settings shipped in `wrangler.jsonc`:
+Plain text Worker **var** (not a secret) — default in `wrangler.jsonc`:
 
 ```json
 {
@@ -22,14 +22,14 @@ Plain text Worker **var** (not a secret) — JSON agent settings shipped in `wra
 
 | Where | How |
 | --- | --- |
-| **Default** | `vars.VOICE_AGENT_CONFIG` in `wrangler.jsonc` |
-| **Local override** | Optional `.dev.vars` (see `.dev.vars.example`) |
-| **Production override** | Dashboard → Settings → Variables (plain text) |
-| **Athena playground** | Deploy dialog copies session config to paste into Variables |
+| **Default / DTOC / CLI** | `vars.VOICE_AGENT_CONFIG` in `wrangler.jsonc` |
+| **Override** | Dashboard → Settings → Variables (plain text) |
+| **Local override** | Optional gitignored `.dev.vars` |
+| **Athena playground** | Deploy dialog copies session JSON to paste into Variables |
 
-Omitted keys inside the JSON fall back to Aria / flux / glm / aura-2 / asteria. Invalid JSON → `/api/health` and `/api/config` return **500**.
+Omitted keys inside the JSON fall back to Aria / flux / glm / aura-2 / asteria.
 
-> If you previously set this with `wrangler secret put`, delete that secret in the Dashboard so the plain var is used (secrets override vars).
+> If you previously set this via DTOC or `wrangler secret put`, **delete the secret** in the Dashboard so the plain var is used (secrets override vars).
 
 ## Run locally
 

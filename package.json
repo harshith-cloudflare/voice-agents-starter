@@ -41,7 +41,7 @@
         "description": "Workers AI binding used for STT, LLM, and TTS."
       },
       "VOICE_AGENT_CONFIG": {
-        "description": "Plain text JSON var of voice settings: `agentName`, `instructions`, `sttModel`, `sttLang`, `llmModel`, `ttsModel`, `ttsVoice`. Default in wrangler.jsonc; override in Dashboard Variables or .dev.vars."
+        "description": "Plain text JSON var: `agentName`, `instructions`, `sttModel`, `sttLang`, `llmModel`, `ttsModel`, `ttsVoice`. Default in wrangler.jsonc; override in Dashboard Variables."
       }
     }
   }

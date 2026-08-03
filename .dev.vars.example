@@ -1,0 +1,6 @@
+# Optional local override only (gitignored .dev.vars).
+# Do NOT put VOICE_AGENT_CONFIG here if you use DTOC — entries in this file
+# are prompted and stored as secrets. Default lives in wrangler.jsonc vars.
+#
+# cp .dev.vars.example .dev.vars   # then uncomment and edit:
+# VOICE_AGENT_CONFIG={"agentName":"Aria","instructions":"…","sttModel":"flux","sttLang":"en","llmModel":"@cf/zai-org/glm-4.7-flash","ttsModel":"aura-2","ttsVoice":"asteria"}

@@ -8,8 +8,7 @@
     "binding": "AI",
     "remote": true
   },
-  // Plain text var (not a secret) — agent settings, not credentials.
-  // Override in Dashboard → Settings → Variables, or via .dev.vars locally.
+  // Plain text var (not a secret). Override in Dashboard Variables or .dev.vars.
   "vars": {
     "VOICE_AGENT_CONFIG": "{\"agentName\":\"Aria\",\"instructions\":\"You are a warm and concise Cloudflare voice assistant. Answer questions about Cloudflare products, keep replies short and natural for speech, and cite sources when you use them.\",\"sttModel\":\"flux\",\"sttLang\":\"en\",\"llmModel\":\"@cf/zai-org/glm-4.7-flash\",\"ttsModel\":\"aura-2\",\"ttsVoice\":\"asteria\"}"
   },
